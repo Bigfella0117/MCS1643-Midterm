@@ -1,16 +1,15 @@
-# Unity 3D Project Template 2020.3
+# Unity 3D Project Template 2022.3
+# based on Jeremy Bond's MSU MI 231 Template
 
-**This project template for all Unity 2020.3 projects in MI 231 - Interactive Media and Game Development includes:**
-* A Unity project template that includes the correct .gitignore and .gitattributes files to work with GitLab.MSU.edu. You won't see the .git___ files because they are invisible, but they help GIT work well with Unity projects.
+**This project template for all Unity 2022.3 projects in MCS 1243 includes:**
+* A Unity project template that includes the correct .gitignore and .gitattributes files to work with GitHub. You won't see the .git___ files because they are invisible, but they help GIT work well with Unity projects.
 * **This README.md MarkDown file.** You will need to edit the **Required ReadMe Info** section below for ***EVERY*** project in this class.
-* A UnityWindowLayout.wlt file in the project folder (the same folder as this ReadMe.md file) that you can load to lay out the Unity window the way that Jeremy recommends.
+* A UnityWindowLayout.wlt file in the project folder (the same folder as this ReadMe.md file) that you can load to lay out the Unity window the way that Peter prefers.
 * Modifications to the base Unity project that **remove Plastic SCM**, which is extremely helpful for allowing Git to work well.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *I hope this template works for you. If it doesn't, please let us know on Piazza. – Jeremy*
 
 ---
 
-# Required ReadMe Info for ALL MI 231 Projects
+# Required ReadMe Info for ALL MCS1243 Projects
 * **Project**   - 
 * **Your Name** - 
 * **Date**      - 
@@ -68,36 +67,7 @@
 
 ---
 
-# Connecting GitHub Desktop to GitLab.MSU.edu Projects
-In MSU Media+Information classes, I recommend using **GitHub Desktop** ([https://desktop.github.com/](https://desktop.github.com/)) to manage your GIT repos. However, doing so does require some (annoying) initial setup. *Thank you to Chris Cardimen for posting these setup steps to the MI 497 Discord channel.*
-
-1. Download GitHub Desktop: [**https://desktop.github.com/**](https://desktop.github.com/)
-2. Sign in using whatever GitHub account you prefer, I'm using my school GitHub account. You can't sign in with your GitLab account, this is a GitHub application. Linking the two comes after. If you don't have a GitHub account, you can make one for free [**here**](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account) by clicking the **Sign up** button at the top and following the directions.
-3. [Login to **GitLab.msu.edu** on a web browser](http://gitlab.msu.edu).
-4. Click **'Preferences'** under your profile picture (which is in the top-right corner of the screen).
-5. On the lefthand sidebar, click **'Access Tokens'**
-	1. Type in a **Token name** (it can be anything).
-	2. Leave the **Expiration date** blank
-	3. Under **Select scopes** select only **'api'**.
-	4. Click **Create personal access token**.
-6. You'll get a popup telling you the token ID. **_You ONLY get to see this token ID once. Copy and paste it somewhere or WRITE IT DOWN!!_**
-7. **To clone a project into GitHub Desktop:**
-	1. Go to the main GitLab repository page (e.g., gitlab.msu.edu/mi231-f22/[your name]/[project name]) and click **'Clone'**.
-	2. Click the clipboard copy icon next to **'Clone with HTTPS'** to copy the link.
-	3. Return to **GitHub Desktop**. From the **File** menu, choose **'Clone Repository** or click the **'Clone Repository'** button.
-	4. Click the **URL** tab.
-	5. Input the HTTPS link that you just copied as the Repository URL.
-	6. Choose whatever local path you want *(I recommend your 'MI 231' folder on your computer)*.
-	7. Click **'Clone'**.
-	8. It's going to prompt you for login information.
-		* For username, use your GitLab username (e.g., gameprof@msu.edu).
-		* For the passcode/password/auth token, use the copied token from step 6. 
-	9. You should be good to go! 
-
-
-
-<br><br><br><br><br>
-
+#
 ---
 
 
