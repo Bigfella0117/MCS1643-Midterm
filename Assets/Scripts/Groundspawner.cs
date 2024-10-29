@@ -15,7 +15,7 @@ public class Groundspawner : MonoBehaviour
 
         if (other.gameObject.CompareTag("Trigger"))
         {
-            int rand = Random.Range(1, 6);
+            int rand = Random.Range(1, 7);
             
             if(rand == 1) Instantiate(groundTile, new Vector3(0, 0, 20), Quaternion.identity);
             else if (rand == 2) Instantiate(ground2, new Vector3(0, 0, 20), Quaternion.identity);

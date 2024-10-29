@@ -8,6 +8,7 @@ TagManager:
   - Obstacle
   - Enemy
   - Destroyer
+  - bullet
   layers:
   - Default
   - TransparentFX
@@ -44,4 +45,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 3548735221
     locked: 0
