@@ -6,10 +6,16 @@ using UnityEngine.SceneManagement;
 public class Die : MonoBehaviour
 {
     public string SceneName;
-    public Collider thisobj;
-    private void OnTriggerEnter(Collider thisobj)
+
+    private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(SceneName, LoadSceneMode.Single);
+        if (other.gameObject.CompareTag("Obstacle") || other.gameObject.CompareTag("Enemy"))
+        {
+            SceneManager.LoadScene(SceneName, LoadSceneMode.Single);
+        }
         
     }
+
+    
+    
 }

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GroundMovement : MonoBehaviour
 {
-    public float speed = 2f;
+    public float speed = -6f;
     public Rigidbody rb;
 
     // Update is called once per frame
