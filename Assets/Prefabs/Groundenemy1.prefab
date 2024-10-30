@@ -343,7 +343,7 @@ GameObject:
   - component: {fileID: 2184949613601548151}
   - component: {fileID: 3189715760114564954}
   - component: {fileID: 779119437789347953}
-  - component: {fileID: 2480534001249314480}
+  - component: {fileID: 648367234389120938}
   m_Layer: 0
   m_Name: Groundenemy1
   m_TagString: Trigger
@@ -430,7 +430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -6
   rb: {fileID: 3189715760114564954}
---- !u!114 &2480534001249314480
+--- !u!114 &648367234389120938
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -439,7 +439,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7067842531612142263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e93a7ab20181cd438f2d524c9d483c8, type: 3}
+  m_Script: {fileID: 11500000, guid: c5a4f768cd5a18646a64255b89183d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thisobject: {fileID: 7067842531612142263}

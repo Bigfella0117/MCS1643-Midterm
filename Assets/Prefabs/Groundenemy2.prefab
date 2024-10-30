@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5547335861750284209}
   - component: {fileID: 7811705705052598727}
   - component: {fileID: 8906364303712841552}
-  - component: {fileID: 6467405029971035949}
   - component: {fileID: 5821729746474101370}
+  - component: {fileID: 3185688246980326013}
   m_Layer: 0
   m_Name: Groundenemy2
   m_TagString: Trigger
@@ -85,19 +85,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 118
   m_CollisionDetection: 0
---- !u!114 &6467405029971035949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 177323964833245771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e93a7ab20181cd438f2d524c9d483c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thisobject: {fileID: 177323964833245771}
 --- !u!114 &5821729746474101370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,6 +99,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -6
   rb: {fileID: 8906364303712841552}
+--- !u!114 &3185688246980326013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177323964833245771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a4f768cd5a18646a64255b89183d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisobject: {fileID: 177323964833245771}
 --- !u!1 &511569980764512646
 GameObject:
   m_ObjectHideFlags: 0

@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 5053242215194418872}
   - component: {fileID: 467935956505579790}
   - component: {fileID: 3607021282699178073}
-  - component: {fileID: 1841762055233556298}
+  - component: {fileID: 9012533355159347842}
   m_Layer: 0
   m_Name: Ground4
   m_TagString: Trigger
@@ -313,7 +313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: -6
   rb: {fileID: 467935956505579790}
---- !u!114 &1841762055233556298
+--- !u!114 &9012533355159347842
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4276476038438709963}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e93a7ab20181cd438f2d524c9d483c8, type: 3}
+  m_Script: {fileID: 11500000, guid: c5a4f768cd5a18646a64255b89183d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thisobject: {fileID: 4276476038438709963}
