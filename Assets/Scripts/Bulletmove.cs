@@ -11,7 +11,10 @@ public class Bulletmove : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Enemy")) Destroy(thisobject);
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(thisobject);
+        }
     }
     void FixedUpdate()
     {

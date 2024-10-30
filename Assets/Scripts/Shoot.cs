@@ -9,7 +9,7 @@ public class Shoot : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            Instantiate(Bullet, new Vector3(0,1,1), Quaternion.identity);
+            Instantiate(Bullet, new Vector3(0,1,-4), Quaternion.identity);
         }
     }
 }
